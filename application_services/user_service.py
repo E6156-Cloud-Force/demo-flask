@@ -9,5 +9,5 @@ class UserResource(BaseApplicationResource):
 
     @classmethod
     def get_by_template(cls):
-        res = d_service.get_by_template("w6156", "user")
+        res = d_service.get_by_template("CFdemodb", "user")
         return res

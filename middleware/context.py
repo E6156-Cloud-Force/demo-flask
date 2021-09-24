@@ -14,9 +14,9 @@ def get_db_info():
 
     if db_host is None:
         db_info = {
-            "host": "localhost",
-            "user": "dbuser",
-            "password": "dbuserdbuser",
+            "host": "cloud-force-demo-flask.chny68qeldj2.us-east-1.rds.amazonaws.com",
+            "user": "admin",
+            "password": "cloudforce1",
             "cursorclass": pymysql.cursors.DictCursor
         }
 
